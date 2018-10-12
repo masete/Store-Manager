@@ -30,14 +30,14 @@ header p{
     border-radius: 50%;
     position: relative;
 }
-/*header p.logo label{
+header p.logo label{
     position: absolute;
     font-size: 25px;
     z-index: 3;
     top: 6px;
     left: 13px;
 }
-*/
+
 header a{
     float: right;
     margin: 8px 45px 0px 0px;
