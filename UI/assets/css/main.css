@@ -96,6 +96,7 @@ header ul li{
     margin: 0px 0px 10px 0px;
     padding: 10px 10px;
     width: 60%;
+    
 }
 .login-sec form p{
     margin:10px 0px 10px 0px;
@@ -179,14 +180,6 @@ footer{
  
 }
 
-/*add cart*/
-input[type=text] {
-    width: 5%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border-radius: 12px;
-}
 .cart-select{
     font-family: Arial;
 
