@@ -178,3 +178,22 @@ footer{
     width: 100%;
  
 }
+
+/*add cart*/
+input[type=text] {
+    width: 5%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+.cart-select{
+    font-family: Arial;
+
+}
+
+
+
+
+
+
