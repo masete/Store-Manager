@@ -197,6 +197,34 @@ footer{
     border-radius: 5px;
 
 }
+.show-cart{
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.show-cart h2{
+    overflow: auto;
+    padding: 15px;
+    margin: 3px;
+}
+.show-cart h2 label{
+    float: left;
+}
+.show-cart h2 span{
+    float: right;
+}
+.show-cart h3, .show-cart p{
+    margin: 3px 0px 0px 15px;
+}
+.show-cart table{
+    margin-top: 30px;
+    width: 97%;
+    margin-left: 1.5%;
+}
+.show-cart table tr td{
+    padding: 30px;
+}
 
 
 
