@@ -96,9 +96,14 @@ header ul li{
     margin: 0px 0px 10px 0px;
     padding: 10px 10px;
     width: 60%;
+    
 }
 .login-sec form p{
     margin:10px 0px 10px 0px;
+}
+.login-sec form textarea{
+    width: 64%;
+    height: 150px;
 }
 .login-sec form button{
     border: none;
@@ -119,6 +124,7 @@ header ul li{
     border-bottom: 1px solid silver;
     padding: 10px;
 }
+tr:nth-child(even) {background-color: rgb(51, 168, 51);}
 .lft{
     text-align: left;
 }
@@ -178,3 +184,54 @@ footer{
     width: 100%;
  
 }
+
+.cart-select{
+    font-family: Arial;
+
+}
+.Addcart-button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 5px;
+
+}
+.show-cart{
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.show-cart h2{
+    overflow: auto;
+    padding: 15px;
+    margin: 3px;
+}
+.show-cart h2 label{
+    float: left;
+}
+.show-cart h2 span{
+    float: right;
+}
+.show-cart h3, .show-cart p{
+    margin: 3px 0px 0px 15px;
+}
+.show-cart table{
+    margin-top: 30px;
+    width: 97%;
+    margin-left: 1.5%;
+}
+.show-cart table tr td{
+    padding: 30px;
+}
+
+
+
+
+
+
