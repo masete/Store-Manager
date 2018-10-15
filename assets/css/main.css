@@ -230,45 +230,44 @@ footer{
     padding: 30px;
 }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
     body{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         display: flex;
         flex-wrap: wrap;
         font-size: 10px; 
         text-align: center;
-    }
-    div.main-content{
-        
-    }
-    div.login-sec{
-        input[type=text], textarea {
-            width: 75%;
-        }
-    }
 
 
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px; 
+        text-align: center;
+
+    }
 
 } 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-} 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    body{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 50px; 
+        text-align: center;
+
+    }
 
 } 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
 
 
 
