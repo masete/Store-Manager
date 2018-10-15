@@ -79,11 +79,16 @@ header ul li{
     width: 50%;
     float: left;
 }
+
+#msg{
+
+    text-align: center;
+    color: red;
+}
 .main-content .login-sec{
     width: 49%;
-    float: left;
-    border-left: 1.5px solid silver;
-    margin-left: 10px;
+    
+    margin:0 auto;
 }
 .login-sec form, .login-sec h3{
     margin-left: 150px;

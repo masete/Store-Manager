@@ -12,28 +12,19 @@
         <a href="">WELCOME</a>
     </header>
     <div class="main-content">
-      <div class="login-sec left">
-        <h3>Admin Login</h3>
-        <form action="products-admin.html" method="post">
-          <label>Username</label>
-          <input type="text" name="" placeholder="enter username" required>
-          <label>Password</label>
-          <input type="password" name="" placeholder="enter password" required>
-          <p><input type="checkbox" checked="checked"> Remember Me</p>
-          <button class="Addcart-button">Login</button>
-        </form>
-      </div>
       <div class="login-sec">
         <h3>Attendant Login</h3>
-        <form action="add-to-cart.html" method="post">
+        <p id="msg"></p>
+        <form>
           <label>Username</label>
-          <input type="text" name="" placeholder="enter username" required>
+          <input type="text" id="username" name="" placeholder="enter username">
           <label>Password</label>
-          <input type="password" name="" placeholder="enter password" required>
+          <input type="password" id="password" name="" placeholder="enter password">
           <p><input type="checkbox" checked="checked"> Remember Me</p>
-          <button class="Addcart-button">Login</button>
+          <input type="button" onclick="login()" value="Login"  class="Addcart-button">
         </form>
       </div>
     </div>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
