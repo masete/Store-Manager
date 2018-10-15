@@ -55,15 +55,9 @@ header ul li{
     display: inline;
 }
 
-.logo {
-    background: url(/images/logo.png) 0 0 no-repeat;
-    width: 150px;
-    height: 80px;
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 1000;
-    border-radius: 12px;
+.logo img{
+    width: 40px;
+    height: 40px;
 }
 .main-content{
     position: absolute;
@@ -78,6 +72,9 @@ header ul li{
 .main-content .words{
     width: 50%;
     float: left;
+}
+.sub-main{
+
 }
 
 #msg{
@@ -161,11 +158,12 @@ tr:nth-child(even) {background-color: rgb(51, 168, 51);}
 }
 .main-content a{
     float: left;
-    margin: 15px 30px;
+    margin: 15px 2%;
+    width: 20%;
     text-decoration: none;
 }
 .main-content a .prod{
-    width: 230px;
+    width: 100%;
     border: 2px solid silver;
     color: black;
 }
@@ -244,10 +242,66 @@ footer{
         text-align: center;
 
 
+}
+
+.main-content .login-sec{
+
+    margin:0px;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+
+}
+input {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #999;
+    background: #fff;
+    padding: 100px;
+
+}
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px; 
+        text-align: center;
+
+    }
+
+    .logo img{
+        position: relative;
+        width: 40px;
+        height: 40px;
+    }
+    header a, header ul{
+        display: none;
+    }
+    .main-content a{
+        width: 46%;
+    }
+    .main-content .login-sec{
+        width: 100%;
+        margin: 0;
+    }
+    .login-sec form, .login-sec h3{
+        margin-left: 0;
+    }
+    .main-content .profile-info, .main-content .personal-sales.profile{
+        width: 90%;
+    }
+
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 768px) {
     body{
         font-family: Arial, Helvetica, sans-serif;
         display: flex;
@@ -257,25 +311,32 @@ footer{
 
     }
 
-} 
+    .logo img{
+        position: relative;
+        width: 40px;
+        height: 40px;
+    }
 
+    header a, header ul{
+        display: none;
+    }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    body{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 50px; 
-        text-align: center;
+    .main-content a{
+        width: 90%;
+    }
 
+    .main-content .login-sec{
+        width: 100%;
+        margin: 0;
+    }
+    .login-sec form, .login-sec h3{
+        margin-left: 0;
+    }
+    .main-content table thead tr td, .main-content table tbody tr td{
+        font-size: 10px;
+    }
+    .main-content .profile-info, .main-content .personal-sales.profile{
+        width: 90%; 
     }
 
 } 
-
-
-
-
-
-
-
