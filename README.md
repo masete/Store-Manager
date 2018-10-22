@@ -31,3 +31,6 @@ This application is to be used by store attendants and a store owner
 ## Admin login
 * Username : admin 
 * Password : 12345
+
+
+You can checkout the system from here https://masete.github.io/Store-Manager/  Enjoy
