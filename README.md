@@ -22,7 +22,7 @@ This application is to be used by store attendants and a store owner
 7. Make store attendant an admin
 8. View all products
 
-
+ALL THE WORK IS IN THE DEVELOP BRANCH
 ## Login credentials
 ## Attendant
 * Username : attendant
