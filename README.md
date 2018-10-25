@@ -33,5 +33,5 @@ ALL THE WORK IS IN THE DEVELOP BRANCH
 * Password : 12345
 
 
-You can checkout the system from here https://masete.github.io/Store-Manager/  Enjoy
+You can checkout the system from here https://masete.github.io/Store-Manager/                                                               The link with the changes from the LFA is : https://masete.github.io/UI-LFA-FEEDBACK/ and the respsitory is https://github.com/masete/UI-LFA-FEEDBACK Enjoy
 er
